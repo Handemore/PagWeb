@@ -4,14 +4,14 @@ class chapas{
         this.app = app;
         this.x = x;
         this.tipo = tipo;
-        this.chapa = this.app.loadImage("/images/PNG_s/Chapas.png");
+        this.chapa = this.app.loadImage("./images/PNG_s/Chapas.png");
         this.chapitas = [];
         for (let i = 1; i < 4; i++) {
             this.chapitas.push(this.app.loadImage("/images/PNG_s/Chapas"+i+".png"));
         }
-        this.IronM = this.app.loadImage("/images/PNG_s/Iron Man.png");
-        this.Thor = this.app.loadImage("/images/PNG_s/Thor.png");
-        this.CapA = this.app.loadImage("/images/PNG_s/Capitan America.png");
+        this.IronM = this.app.loadImage("./images/PNG_s/Iron Man.png");
+        this.Thor = this.app.loadImage("./images/PNG_s/Thor.png");
+        this.CapA = this.app.loadImage("./images/PNG_s/Capitan America.png");
     }
 
     pintar(){

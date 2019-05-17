@@ -9,7 +9,7 @@ class IronM{
         this.golpe = 20;
         this.balas = [];
 
-        this.Iron = this.app.loadImage("/images/PNG_s/Chapas1.png");
+        this.Iron = this.app.loadImage("./images/PNG_s/Chapas1.png");
         this.disparar = this.disparar.bind(this);
         setInterval(this.disparar,500);
     }

@@ -13,7 +13,7 @@ class CapitanA{
         this.logica = logica;
         this.balas = [];
         
-        this.Cap = this.app.loadImage("/images/PNG_s/Chapas3.png");
+        this.Cap = this.app.loadImage("./images/PNG_s/Chapas3.png");
         this.disparar = this.disparar.bind(this);
         setInterval(this.disparar,1000);
 

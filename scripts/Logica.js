@@ -4,7 +4,7 @@ class Logica{
         this.app = app;
 
         this.app.createCanvas(1200, 700);
-        this.escenario = this.app.loadImage("/images/PNG_s/Escenario.png");
+        this.escenario = this.app.loadImage("./images/PNG_s/Escenario.png");
         this.tipoChapa = 0;
         this.torreta = false;
         this.seleccion = new seleccion(app, this.tipoSelec);

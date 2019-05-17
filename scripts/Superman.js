@@ -5,7 +5,7 @@ class Superman{
         this.x = x;
         this.y = y;
         this.vel = 3;
-        this.superman = this.app.loadImage("/images/PNG_s/Superman.png");
+        this.superman = this.app.loadImage("./images/PNG_s/Superman.png");
         this.vida= 100;
 
     }

@@ -7,7 +7,7 @@ class Thor{
         this.vida = 100;
         this.golpe = 10;
 
-        this.ThorI = this.app.loadImage("/images/PNG_s/Chapas2.png");
+        this.ThorI = this.app.loadImage("./images/PNG_s/Chapas2.png");
     }
 
     pintar(){

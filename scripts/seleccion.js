@@ -4,7 +4,7 @@ class seleccion {
         this.app = app;
         this.imagenes = [];
         for (let i = 1; i < 4; i++) {
-            this.imagenes.push(this.app.loadImage("/images/PNG_S/Chapas" + i + ".png"));
+            this.imagenes.push(this.app.loadImage("./images/PNG_S/Chapas" + i + ".png"));
         }
     }
 

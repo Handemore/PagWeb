@@ -7,7 +7,7 @@ class Linterna{
         //this.IronM = IronM;
         this.logica = logica;
         this.vel = 3;
-        this.linterna = this.app.loadImage("/images/PNG_s/Linterna Verde.png");
+        this.linterna = this.app.loadImage("./images/PNG_s/Linterna Verde.png");
         this.vida= 200;
 
     }
